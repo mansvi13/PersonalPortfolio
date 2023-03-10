@@ -12,7 +12,7 @@ const Experience = () => {
                 <span> Software Tester </span>
                 <span className = "e-company">
                 &nbsp;@&nbsp;
-                <a href="https://www.infineon.com/">Infineon Technologies</a>
+                <a href="https://www.infineon.com/" target="blank">Infineon Technologies</a>
                 </span>
                 <p>Sept 2021 - Jul 2022</p>
                 <ul >
@@ -25,15 +25,9 @@ const Experience = () => {
                 <span> Machine Learning Intern </span>
                 <span className = "e-company">
                 &nbsp;@&nbsp;
-                <a href="https://www.infineon.com/">Infineon Technologies</a>
-                </span>
-                <p>Aug 2020 - Jun 2021</p>
-                <ul >
-                    <li>Worked with the Applied Machine Learning Team as an Intern in developing the inhouse NLP based Project.
-                    </li>
-                    <li>Responsible for developing the frontend and backend of the application using techniques like Python,HTML,CSS,FLASk,Javascript</li>
                     <li>Worked on NLP based project as well as computer vision based tasks.</li>
-                </ul>
+                </span>
+                
             </section>
         </div>
     </div>
