@@ -3,27 +3,113 @@
   max-height: 100%;
   margin: auto;
   display: block;
-  margin-right:40%;
+  margin-right:45%;
+  position:sticky;
 }
 .p-Mappimg{
   max-width: 50%;
   max-height: 100%;
   margin: auto;
   display: block;
-  margin-left:40%;
+  margin-right:45%;
+  position:sticky;
 }
 .p-ytsimg{
   max-width: 100%;
   max-height: 100%;
   margin: auto;
   display: block;
-  margin-right:40%;
+  margin-right:45%;
+  position:sticky;
 }
 .p-PPimg{
   max-width: 50%;
   max-height: 100%;
   margin: auto;
   display: block;
-  margin-left:40%;
+  margin-right:45%;
+  position:sticky;
 
+}
+.p-yts{
+  margin-top: 20%;
+}
+.p-Portfolio{
+  margin-top: 25%;
+}
+/*---------------------IDF---------------------- */
+.p-idfimage{
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+.p-idfimage{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+.p-idfimage:hover {
+  filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.1);
+}
+.p-IDF{
+  margin-left:57%;
+}
+/*-----------------------MApp-------------------*/
+.p-Mappimg{
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+.p-Mappimg{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+.p-Mappimg:hover {
+  filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.1);
+}
+.p-Mapp{
+  margin-left:57%;
+}
+/*---------------------YTS---------------------- */
+.p-ytsimg{
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+.p-ytsimg{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+.p-ytsimg:hover {
+  filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.1);
+}
+.p-yts{
+  margin-left:57%;
+}
+/*---------------------PP---------------------- */
+.p-PPimg{
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+.p-PPimg{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+.p-PPimg:hover {
+  filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.1);
+}
+.p-Portfolio{
+  margin-left:57%;
 }

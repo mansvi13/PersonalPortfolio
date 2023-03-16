@@ -12,11 +12,11 @@ const Projects = () => {
                 
                 {/*---------------------- Project 1--------------------------*/}
 
-                <h1 className="p-IDF" style={{ color: 'white' }}>Intelligent Document Finder</h1>
+                <h1 className="p-IDF" style={{ color: 'violet',fontSize:'250%' }}>Intelligent Document Finder</h1>
                 <div className="p-IDFdata">
                 <img className= "p-idfimage" src={idf} alt ='Mansvi Dubey'/>
             
-                <p className="p-idfdetails" style={{ color: 'white',background:'#864fb2',width:'50%',marginLeft:'45%'}}><br></br>Intelligent Document Finder(IDF) is a NLP based document search engine.<br></br>
+                <p className="p-idfdetails" style={{ color: 'white',width:'40%',marginLeft:'57%',marginTop:'-24%',fontFamily:"verdana",fontSize:'110%'}}><br></br>Intelligent Document Finder(IDF) is a NLP based document search engine.<br></br>
                     This application allows the user to find document from the local machine without any need of preinstalled dependency
                     IDF along with the instant document search supports other functionalities like Text Summarization,Auto Keyword Generation.
                     addition of manual keywords,which will make the user experience more easy to find the document from the machine just by searching <br></br>
@@ -30,19 +30,19 @@ const Projects = () => {
                 
                 {/*------------------------- Project 2--------------------------*/}
 
-                <h1 className="p-Mapp" style={{ color:'white' }} >Audio Streaming App</h1>
+                <h1 className="p-Mapp" style={{ color: 'violet',fontSize:'250%'}} >Audio Streaming App</h1>
                 <div className="p-Mappdata">
                 <img className="p-Mappimg" src ={ MApp } alt ="MApp"/>
-                <p style={{color:'white' ,background:'#864fb2',width:'40%',marginLeft:'10%' }}>Built a basic audio streaming app using HTML,CSS,Javascript. <br></br>
+                <p style={{color:'white' ,width:'40%',marginLeft:'57%',marginTop:'-21%',fontFamily:"verdana",fontSize:'110%'}}>Built a basic audio streaming app using HTML,CSS,Javascript. <br></br>
                 From this basic application user can play the music from the list of songs.</p>
                 </div>
 
                 {/*-------------------------- Project 3---------------------------*/}
 
-                <h1 className="p-yts" style={{ color: 'white' }}>YTS</h1>
+                <h1 className="p-yts" style={{color: 'violet',fontSize:'250%' }}>YTS</h1>
                 <div className="p-ytsdata">
                 <img className="p-ytsimg" src ={ YTS } alt ="YTS"/>
-                <p style={{color: 'white',background:'#864fb2',width:'50%',marginLeft:'45%' }}>Built an application where user can easily get the transcripts of the youtube videos and can  <br></br>
+                <p style={{color: 'white',width:'40%',marginLeft:'57%',marginTop:'-29%',fontFamily:"verdana",fontSize:'110%'}}>Built an application where user can easily get the transcripts of the youtube videos and can  <br></br>
                    easily download the transcripts and the summary of the transcripts. <br></br>
                    This application is in progess.Will update soon.<br></br>
                    Technology Stack Used for this application:-Python,FLask,Javascript,HTML,CSS
@@ -51,10 +51,10 @@ const Projects = () => {
 
                 {/*------------------------ Project 4---------------------------*/}
 
-                <h1 className="p-Portfolio" style={{ color: 'white' }}>Personal Portfolio</h1>
+                <h1 className="p-Portfolio" style={{ color: 'violet',fontSize:'250%' }}>Personal Portfolio</h1>
                 <div className="p-Portfoliodata">
                 <img className="p-PPimg" src ={ YTS } alt ="YTS"/>
-                <p style={{color:'white' ,background:'#864fb2',width:'40%',marginLeft:'10%' }}>Created the personal Portfolio <br></br>
+                <p style={{color:'white' ,width:'40%',marginLeft:'57%',marginTop:'-29%',fontFamily:"verdana",fontSize:'110%'}}>Created the personal Portfolio <br></br>
                 Technology Stack Used for this application:-React.js,JSX,CSS,Javascript
                 </p>
                

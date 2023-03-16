@@ -6,7 +6,7 @@
     top: 0;
     Color:white;
     position: sticky;
-    background-color: Blue;
+    background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
   }
   .n-left {
     flex: 1;
@@ -30,6 +30,7 @@
   
   .n-list {
     flex: 10;
+    color:red;
   }
   .n-list > ul {
     display: flex;
