@@ -1,13 +1,51 @@
+.h-left{
+    margin-top:200px;
+}
 .h-name{
-    color:RED;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 80px;
+    padding:0;
+    margin-left: 70px;
+    margin-top:-35px;
+    
 }
 .h-greet{
-    color:aqua;
+    color:white;
+    margin-left: 70px;
+  
 }
 .h-soft{
-    color:blueviolet;
+    color:white;
+    margin-left: 70px;
+    margin-top:-10px;
 }
 .h-avtar{
     height: 40vh;
     margin-left: 70%;
+    margin-top: -100%;
+   
 }
+.h-right{
+    margin-top:100px;
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }

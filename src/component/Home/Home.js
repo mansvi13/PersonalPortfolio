@@ -9,14 +9,16 @@ const Home = () =>{
                 {/*left*/}
                 <section>
                 <h1 className='h-greet'>
-                    Hello Stranger!!
+                    नमस्ते , I am
+                    &nbsp;🙏 &nbsp;
                 </h1>
-                <h2 className='h-name'>
-                    I am Mansvi...
-                </h2>
-                <h3 className='h-soft'>
+                
+                <span className='h-name'>
+                    Mansvi Dubey
+                </span>
+                <h2 className='h-soft' >
                     Software Engineer
-                </h3>
+                </h2>
                 </section>
                 <div className="h-right">
                  <img className= "h-avtar" src={avtar} alt ='Mansvi Dubey'/>

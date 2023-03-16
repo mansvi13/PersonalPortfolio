@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import "./NavBar.css";
 const navbar = () =>{
     return(
+      
         <div className="n-wrapper" id="NavBar">
             { /* left */}
             <div className="n-left">
@@ -18,22 +19,22 @@ const navbar = () =>{
               </Link>
             </li>
             <li>
-              <Link to="About" spy={true} smooth={true}>
+              <Link to ="/About">
                 About
               </Link>
             </li>
             <li>
-              <Link to="Experience" spy={true} smooth={true}>
+              <Link activeClass="active"  to="Experience" spy={true} smooth={true} duration={500}>
                 Experience
               </Link>
             </li>
             <li>
-              <Link to="Project" spy={true} smooth={true}>
+              <Link activeClass="active" to="Projects" smooth={true} offset={50} duration={500}>
                 Project
               </Link>
             </li>
             <li>
-              <Link to="Contact" spy={true} smooth={true}>
+              <Link to="/Contact" >
                 Contact
               </Link>
             </li>
@@ -41,7 +42,7 @@ const navbar = () =>{
         </div>
         </div>
         </div>
-
+      
     );
 };
 

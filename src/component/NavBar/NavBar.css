@@ -1,9 +1,12 @@
 .n-wrapper {
-    height: 10vh;
+    height: 64px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
     top: 0;
+    Color:white;
+    position: sticky;
+    background-color: Blue;
   }
   .n-left {
     flex: 1;
