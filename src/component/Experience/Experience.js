@@ -11,22 +11,27 @@ export default function Experience() {
   return (
     <div>
       
-      <h1  style={{color:'white', marginLeft:'600px',marginTop:'15rem'}}>Work  Experience</h1>
+      <h1><span className='e-heading'>Work Experience</span>&nbsp;<span className='e-icon'>💼</span></h1>
+      <div className="e-accordion">
       <Accordion sx={{
-            backgroundColor: "blue",
+            backgroundColor: "#331E6F",
             width:'55%',
-            ml:'20%',
-            p:'relative'
+            borderRadius:'10px',
+            borderTopRightRadius:'10px',
+            borderTopLeftRadius:'10px'
           }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           sx={{
-            backgroundColor: "#8F00FF",
-            p:'absolute'
+            backgroundColor: "#550A86",
+            p:'sticky',
+            borderRadius:'10px',
+            borderTopRightRadius:'10px',
+            borderTopLeftRadius:'10px'
+        
           }}
-         
         >
-          <Typography style={{color:'white'}} >Software Tester @ <a style={{color:'white'}} href="https://www.infineon.com/" target="blank">Infineon Technologies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sept 2021 - Jul 2022</Typography>
+          <Typography style={{color:'white'}} ><b>Software Tester @</b> <a style={{color:'white'}} href="https://www.infineon.com/" target="blank"><b>Infineon Technologies</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sept 2021 - Jul 2022</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -41,23 +46,23 @@ export default function Experience() {
         </AccordionDetails>
       </Accordion>
       <Accordion sx={{
-            backgroundColor: "#4B0082",
+            backgroundColor: "#331E6F",
             width:'55%',
-            ml:'20%',
-            justifyContent:"center",
-            flexdirection: 'column', 
-            p:"sticky",
-            bottom:0
+            borderRadius:'10px',
+            borderTopRightRadius:'10px',
+            borderTopLeftRadius:'10px'
           }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           sx={{
-            backgroundColor: "#8F00FF",
+            backgroundColor: "#550A86",
             p:"sticky",
-            bottom:0
+            borderRadius:'10px',
+            borderTopRightRadius:'10px',
+            borderTopLeftRadius:'10px'
           }}
         >
-        <Typography style={{color:'white'}}>Machine Learning Intern @ <a style={{color:'white'}} href="https://www.infineon.com/" target="blank">Infineon Technologies </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aug 2020 - Jun 2021</Typography>
+        <Typography style={{color:'white'}}><b>Machine Learning Intern @ </b><a style={{color:'white'}} href="https://www.infineon.com/" target="blank"><b>Infineon Technologies</b> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aug 2020 - Jun 2021</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -71,7 +76,7 @@ export default function Experience() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      
+      </div>
     </div>
   );
 };

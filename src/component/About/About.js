@@ -17,9 +17,22 @@ const About = () =>{
                         On the other hand,My soft skills includes:-Leadership,Communication,Adaptability and Interpersonal Skills.
                     </p>
                     <p>    
-                        Currently,I am open to Job opportunities where I can use my skills and abilites to make a significant <br></br> contribution to the organization and also,where I can Learn and Grow.If you have any opportunity or if you <br></br>find my experience,skills relevant than please contact me.
+                        Currently,I am looking for 🔍 Job opportunities where I can use my skills and abilites to make a significant <br></br> contribution to the organization and also,where I can Learn and Grow.If you have any opportunity or if you <br></br>find my experience,skills relevant than please contact me.
                     </p>
                 </article>
+            </div>
+            <div className="a-right">
+            <h1 className="a-headingright">My Skills</h1>
+            <div className='a-Skills'>
+            <div className='a-skill'>HTML</div>
+            <div className='a-skill'>CSS</div>
+            <div className='a-skill'>JavaScript</div>
+            <div className='a-skill'>ReactJs</div>
+            <div className='a-skill'>Python</div>
+            <div className='a-skill'>Flask</div>
+            <div className='a-skill'>SQL Basics</div>
+            <div className='a-skill'>Machine Learning</div>
+            </div>
             </div>
         </div>
     );
