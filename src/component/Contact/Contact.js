@@ -8,7 +8,7 @@ const Contact = () => {
     return(
       <div className='c-wrapper' id= 'Contact'>
         <div className='c-contact'>
-            <h1 className='c-text'>If you are HR or have any good opportunity.<br/>Please Contact me,my mailbox is always<br/> open or give me shout on social media... </h1>
+            <h1 className='c-text'>If HR or If you have any good opportunity for me.<br/>Please Contact me,my mailbox is always<br/> open or give me shout on social media... </h1>
         </div>
         <div className="c-contactIcons">
             <span>

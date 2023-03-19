@@ -31,6 +31,7 @@
   .n-list {
     flex: 10;
     color:#83f4f4;
+    cursor: pointer;
   }
   .n-list > ul {
     display: flex;
