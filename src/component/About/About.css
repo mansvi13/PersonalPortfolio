@@ -1,5 +1,7 @@
 .a-Wrapper{
-   height:500px;
+   height:350px;
+   margin-top: 30px;
+   
    
 }
 .a-left{
@@ -13,7 +15,7 @@
 	-webkit-text-fill-color: transparent;
     font-size: 200%;
     font-family:Arial, Helvetica, sans-serif;
-    margin-top:10rem;
+    margin-top:15rem;
     margin-left: 70px;
 }
 .a-headingright{
@@ -22,7 +24,8 @@
 	-webkit-text-fill-color: transparent;
     font-size: 200%;
     font-family:Arial, Helvetica, sans-serif;
-    margin-top:-62%;
+    margin-top:-74.5%;
+    margin-left: 3%;
 }
 .a-right{
     margin-left: 67%;
@@ -33,14 +36,21 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 5px;
-}
-
-  
+ 
+} 
 .a-skill{
     background-color: rgb(240, 233, 233);
     text-align: center;
     margin: 10px;
     padding:5px;
     border-radius: 5px;
-
-  }
+}
+.a-resume{
+    margin-left:0.1%;
+    margin:auto;
+    background-color:#83f4f4;
+    border-radius: 10px;
+    height:40px;
+    text-align: center;
+    width:100px;
+}

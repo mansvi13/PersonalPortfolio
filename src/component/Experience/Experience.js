@@ -9,7 +9,7 @@ import "./Experience.css";
 
 export default function Experience() {
   return (
-    <div>
+    <div id='Experience'>
       
       <h1><span className='e-heading'>Work Experience</span>&nbsp;<span className='e-icon'>💼</span></h1>
       <div className="e-accordion">
@@ -18,16 +18,16 @@ export default function Experience() {
             width:'55%',
             borderRadius:'10px',
             borderTopRightRadius:'10px',
-            borderTopLeftRadius:'10px'
+            borderTopLeftRadius:'10px',
+            
           }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           sx={{
             backgroundColor: "#550A86",
-            p:'sticky',
             borderRadius:'10px',
             borderTopRightRadius:'10px',
-            borderTopLeftRadius:'10px'
+            borderTopLeftRadius:'10px',
         
           }}
         >
@@ -80,22 +80,3 @@ export default function Experience() {
     </div>
   );
 };
-
-/*import React from 'react';
-
-const Experience = () =>{
-  return(
-    <>
-    <details >
-   
-      <summary >Epcot Center</summary>
-     
- 
-  <p >Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-</details>
-    </>
-  );
-
-};
-export default Experience;
-*/

@@ -5,8 +5,9 @@
     margin-bottom: 2rem;
     top: 0;
     Color:white;
-    position: sticky;
-    background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+   position: sticky;
+   background-color:black;
+   z-index:1
   }
   .n-left {
     flex: 1;
@@ -27,14 +28,18 @@
     justify-content: flex-end;
     font-weight: 400;
   }
-  
   .n-list {
     flex: 10;
-    color:red;
+    color:#83f4f4;
   }
   .n-list > ul {
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
   }
+.n-logo{
+  height: auto;
+  padding:70px;
+  margin-top: 2%;
+}
   

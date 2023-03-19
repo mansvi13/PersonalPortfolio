@@ -1,49 +1,53 @@
 import React from 'react';
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
 import "./NavBar.css";
-const navbar = () =>{
+import logo2 from "./logo2.png";
+
+
+const NavBar = () =>{
     return(
-      
-        <div className="n-wrapper" id="NavBar">
-            { /* left */}
-            <div className="n-left">
-                <div className='n-name'>Mansvi Dubey</div>
-            </div>
-            {/* right */ }
-            <div className="n-right">
-            <div className="n-list">
-            <ul style={{ listStyleType:"none"}}>
+      <>
+       <div className="n-wrapper" id="NavBar">
+      {/* left */}
+      <div className="n-left">
+        <div className="n-logo"> <img className= "n-avtar" src={logo2} alt ='Mansvi Dubey'/></div>
+      </div>
+      {/* right */}
+      <div className="n-right">
+        <div className="n-list">
+          <ul style={{ listStyleType: "none" }}>
             <li>
-              <Link activeClass="active" to="NavBar" spy={true} smooth={true}>
+              <Link  to="Home" spy={true} smooth={true}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to ="/About">
+              <Link to="About" spy={true} smooth={true}>
                 About
               </Link>
             </li>
             <li>
-              <Link activeClass="active"  to="Experience" spy={true} smooth={true} duration={500}>
+              <Link to="Experience" spy={true} smooth={true}>
                 Experience
               </Link>
             </li>
             <li>
-              <Link activeClass="active" to="Projects" smooth={true} offset={50} duration={500}>
-                Project
+              <Link to="Projects" spy={true} smooth={true}>
+                Projects
               </Link>
             </li>
             <li>
-              <Link to="/Contact" >
+              <Link to="Contact" spy={true} smooth={true}>
                 Contact
               </Link>
             </li>
           </ul>
         </div>
-        </div>
-        </div>
-      
+      </div>
+    </div>
+      </>
     );
+   
 };
 
-export default navbar;
+export default NavBar;

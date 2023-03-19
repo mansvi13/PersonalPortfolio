@@ -104,6 +104,7 @@
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
+  margin-top: -5%;
 }
 .p-PPimg{
   filter: grayscale(100%);

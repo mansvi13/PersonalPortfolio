@@ -1,7 +1,32 @@
 .c-contact{
-    text-align:center;
+    text-align:left;
     margin-top: 40%;
 }
 .c-contactIcons{
-    text-align:center;
+    text-align:left;
+    margin-left: 6%;
+}
+.c-wrapper{
+    background-color:#83f4f4 ;
+    height: 70vh;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    
+}
+.c-text{
+    color:slategray;
+    font-family:cursive;
+
+}
+.c-avtar{
+    height: 300px;
+    margin-left: 75%;
+}
+.c-end{
+    color:slategrey;
+    font-family:cursive;
+    margin-top: -3%;
+    font-size:4vh;
 }
