@@ -80,8 +80,7 @@ const Projects = () => {
                 <h1 className="p-Portfolio" style={{ color: 'violet',fontSize:'250%' }}>Personal Portfolio</h1>
                 <div className="p-Portfoliodata">
                 <img className="p-PPimg" src ={ pp } alt ="pp"/>
-                <p style={{color:'white' ,width:'40%',marginLeft:'57%',fontFamily:"verdana",fontSize:'110%',marginTop:'-19%'}}>Developed my personal Portfolio <br />
-                Technology Stack Used:-React.js,JSX,CSS,Javascript
+                <p style={{color:'white' ,width:'40%',marginLeft:'57%',fontFamily:"verdana",fontSize:'110%',marginTop:'-19%'}}>Crafted a captivating Personal Portfolio showcasing my skills and expertise,<br /> with a technology Stack;JSX,CSS,JavaScript and ReactJS.
                 <br />
                 <br/>
                 <span>

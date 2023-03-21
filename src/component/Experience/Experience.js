@@ -36,11 +36,11 @@ export default function Experience() {
         <AccordionDetails>
           <Typography>
           <ul style={{color:'white'}} className='e-first' >
-              <li>Worked with the Security and Payment Smart Card team,in testing
-                  the developed functionality of the EMV smart card.
+              <li>Contributed to the Security and Payment Smart Card of 
+20+ Team members, in testing the applet.
               </li>
-              <li>Write performant and maintainable code to test the smart card using C# and .NET.</li>
-              <li>Responsible for Bug identification,writing Test cases and generating Test reports.</li>
+              <li>Conducted 200+ comprehensive manual tests on Smart card applet including functional and Non-Functional testing,using C# & .Net and also compliance tool testing..</li>
+              <li>Bugs Identified for 10+ formulated features, reported and Collaborated with the development team in resolving the issue </li>
           </ul>
           </Typography>
         </AccordionDetails>
@@ -69,8 +69,13 @@ export default function Experience() {
           <ul  style={{color:'white'}}>
               <li>Worked with the Applied Machine Learning Team in developing the inhouse NLP based Project.
               </li>
-              <li>Responsible for performing the File Parsing Techniques for different file formats.</li>
-              <li>Built the frontend of the application</li>
+              <li> Implemented modules for file parsers with over 10+ 
+libraries to ensure the parsed data is cleaned text.</li>
+              <li>Programmed text summarization technique that reduced 
+document length by 70% and improved readability, also
+Keyword Extraction feature that increased search 
+accuracy by 40%.
+</li>
               <li>Worked on the NLP as well as Computer Vision tasks.</li>
           </ul>
           </Typography>
